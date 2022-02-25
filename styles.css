@@ -1,0 +1,111 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* RESET CSS END */
+
+
+
+/* ROOT VARIABLES */
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neo-green: hsl(150, 100%, 66%);
+    
+    --grayish-blue: hsl(215, 9%, 27%);
+    --dark-g-blue: hsl(218, 28%, 19%);
+}
+/* ROOT VARIABLES END */
+
+
+/* BODY STYLES */
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--grayish-blue);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+/* BODY STYLES END */
+
+
+
+/* MAIN STYLES */
+.container {
+    margin: 13rem auto;
+    width: 570px;
+    height: 325px;
+    background-color: var(--dark-g-blue);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--light-cyan);
+    box-shadow: 0px 0px 5px 5px #212020;
+}
+
+.advice {
+    margin-top: 4rem;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: var(--neo-green);
+}
+
+.quote {
+    margin: 3rem;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.divider {
+    width: 100%;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.8rem;
+    border: none;
+    background-color: var(--neo-green);
+    padding: 1rem;
+    width: 3.7rem;
+    height: 7.2rem;
+    border-radius: 100%;
+    transition: .3s all;
+}
+
+.dice:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 22px 4px var(--neo-green);
+}
+
+.msj {
+    text-align: center;
+    color: var(--neo-green);
+}
+/* MAIN STYLES END */
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+/* MEDIA QUERIES END */
+
+
+
+
+
+
+/* ATTRIBUTION STYLES */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 65%, 77%); }
+.attribution a:hover { color: hsl(228, 89%, 63%); }
+/* ATTRIBUTION STYLES END */

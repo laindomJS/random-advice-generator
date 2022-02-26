@@ -1,10 +1,10 @@
 // LISTENER OF THE LOAD EVENT
-window.addEventListener('click', () => {
+window.addEventListener('load', () => {
 
     // CONSTANTS 
     const advicee = document.querySelector('.advice');
     const p = document.querySelector('.quote');
-    const dice = document.querySelector('.dice--img');
+    const dice = document.querySelector('.dice');
     const loader = document.querySelector('.loader');
     const url = 'https://api.adviceslip.com/advice';
 
@@ -23,13 +23,12 @@ window.addEventListener('click', () => {
             }).catch(e => {
                 alert(e)
             });  
-        }
+        };
 
     // FUNCTION OF THE LOADING ELEMENT
     const loading = () => {
         loader.classList.add('loading');
     }
-
 
     // LISTENER OF THE CLICK EVENT
     dice.addEventListener('click', () => {
@@ -39,8 +38,6 @@ window.addEventListener('click', () => {
             apiFetch();
         }, 2500)
         loading();
-        
     });
 
-    
 });

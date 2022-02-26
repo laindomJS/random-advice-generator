@@ -28,6 +28,8 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* BODY STYLES END */
 
@@ -112,12 +114,50 @@ body {
 
 
 /* MEDIA QUERIES */
+@media (max-width: 375px) {
 
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+    }
 
+   .advice {
+       margin-top: 3rem;
+       font-size: 13px;
+       letter-spacing: 4px;
+       text-align: center;
+   }
+
+   .quote {
+       margin: 1rem;
+       font-size: 20px;
+   }
+
+   .container {
+       margin-top: 8rem;
+       margin-left: 2.5rem;
+       width: 310px;
+       height: 250px;
+       padding: 2rem;
+   }
+
+   .divider {
+       width: 10%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .dice {
+       margin-top: 1.3rem;
+   }
+
+}
+ 
 /* MEDIA QUERIES END */
-
-
-
 
 
 

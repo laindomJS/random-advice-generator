@@ -53,8 +53,8 @@ body {
 
 
 .container {
-    margin: 13rem auto;
-    width: 570px;
+    margin: 8rem auto;
+    width: 545px;
     height: 325px;
     background-color: var(--dark-g-blue);
     border: none;

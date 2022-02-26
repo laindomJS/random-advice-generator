@@ -15,6 +15,8 @@
     
     --grayish-blue: hsl(215, 9%, 27%);
     --dark-g-blue: hsl(218, 28%, 19%);
+
+    --bg:hsl(217, 19%, 30%);
 }
 /* ROOT VARIABLES END */
 
@@ -32,6 +34,22 @@ body {
 
 
 /* MAIN STYLES */
+.loading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-color: rgba(0, 0,0,0.7);
+    background-image: url('./images/loader.svg');
+}
+
+
 .container {
     margin: 13rem auto;
     width: 570px;
@@ -94,7 +112,6 @@ body {
 
 
 /* MEDIA QUERIES */
-
 
 
 /* MEDIA QUERIES END */

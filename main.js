@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
     // FUNCTION OF THE FETCH AND THE MANAGE OF THE DATA
     const apiFetch = ()=> { 
         
-        fetch(url, {'cache': "no-cache"}) // THIS IS USEFULL ?¿
+        fetch(url, {cache: "no-cache"}) // THIS IS USEFULL ?¿
             .then(response => { return response.json() })
             .then(data => {
 
